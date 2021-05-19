@@ -4,9 +4,10 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Test HelloCSE - Laravel </title>
+        <title>Portefolio </title>
         <link href="{{ asset('css/app.css') }}" rel="stylesheet">
         <link href="{{ asset('css/general.css') }}" rel="stylesheet">
+        <link href="{{ asset('css/portefolio.css') }}" rel="stylesheet">
         
     </head>
     <body>

@@ -1,5 +1,7 @@
 /* GENERAL CSS RULES */
-body {
+
+/* RESET TEST */
+/* body {
     position: relative;
     box-sizing: border-box;
     background-color: rgb(238, 238, 238);
@@ -26,17 +28,17 @@ button {
 }
 button:hover {
     background-color: rgb(35, 108, 122);
-}
+} */
 
-/* LAYOUT */
-.global-container {
+/* LAYOUT TEST*/
+/* .global-container {
     display: flex;
     justify-content: center;
     margin: auto;
-}
+} */
 
 /* LIST  */
-.list-container {
+/* .list-container {
     display: flex;
     flex-direction: column;
     width: 200px;
@@ -53,10 +55,10 @@ button:hover {
 }
 .list-style {
     background-color: white;
-}
+} */
 
 /* CARD */
-.card-container {
+/* .card-container {
     width: 600px;
     min-height: 250px;
     box-shadow: 1px 1px 5px rgb(197, 197, 197);
@@ -83,10 +85,10 @@ button:hover {
 .button-container {
     display: flex;
     justify-content: flex-end;
-}
+} */
 
 /* FORM */
-.form-container {
+/* .form-container {
     margin : auto;
     width : 40%;
     display: flex;
@@ -103,10 +105,10 @@ button:hover {
 	padding:0;
 	vertical-align:top;
 	white-space:normal;
-}
+} */
 
 /* NOTIFICATIONS */
-.notification-error {
+/* .notification-error {
     position: absolute;
     bottom: 0;
     width : 40%;
@@ -116,10 +118,10 @@ button:hover {
     font-size: 18px;
     text-align: center;
     padding: auto;
-}
+} */
 
 /* MODAL */
-.modal-layout{
+/* .modal-layout{
     position: absolute;
     display: flex;
     justify-content: center;
@@ -146,10 +148,10 @@ button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} */
 
-/* FOOTER */
-footer {
+/* FOOTER TEST */
+/* footer {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -160,9 +162,9 @@ footer {
 }
 footer p {
     margin: 0 20px;
-}
+} */
 
-@media (max-width: 760px){
+/* @media (max-width: 760px){
     .global-container {
         flex-direction: column;
 
@@ -182,5 +184,5 @@ footer p {
         width : 80%;
     }
 
-}
+} */
 
