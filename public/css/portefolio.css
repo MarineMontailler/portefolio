@@ -5,6 +5,10 @@
 html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,iframe,hr,h1,h2,h3,h4,h5,h6{margin:0;padding:0}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}ul{list-style:none}button,input,select{margin:0}html{box-sizing:border-box}*,*::before,*::after{box-sizing:inherit}img,video{height:auto;max-width:100%}iframe{border:0}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}
 
 /* My CSS */
+html {
+    scrollbar-color: #CCFF00 #FFFFFF;
+    scrollbar-width: 10px;
+}
 body {
     font-family: 'Open Sans', sans-serif;
     color: #000000;
@@ -17,21 +21,27 @@ a {
 
 }
 
+.underline {
+    text-decoration: underline;
+}
+
 
   /* HEADER */ 
 header {
     position: fixed;
     height: 80px;
     min-width: 100vw;
-    background-color: #FFFFFF;
     display: flex;
     justify-content: space-between;
 }
 
 .left-head {
-    margin: 10px 30px;
+    margin: 10px 20px;
     font-size: 40px;
     font-weight: bold;
+}
+.left-head a img {
+    width:150px;
 }
 
 
@@ -41,8 +51,8 @@ header {
  {
    display: block;
    position: relative;
-   top: 30px;
-   right: 40px;
+   top: 40px;
+   right: 50px;
    z-index: 1;
    -webkit-user-select: none;
    user-select: none;
@@ -179,7 +189,28 @@ header {
 
 #info-container {
     background-color: #2B2D42;
+    color: #8D99AE;
     min-height: 50vh;
+    padding : 30px;
+
+}
+#info-container section {
+    margin-bottom: 20px;
+    padding-left: 17%;
+    padding-right: 12%;
+
+}
+#info-container section h1 {
+    font-weight: 700;
+    padding-top: 20px;
+}
+#info-container section p {
+    font-size: 22px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-left: 10px;
+    border-bottom: solid 1px #8D99AE;
+
 }
 
 #demo-container {
@@ -190,14 +221,14 @@ header {
 
 #contact-container {
     background-color: #CCFF00;
-    height: 40vh;
+    height: 50vh;
     display: flex;
     flex-direction: column;
     
 }
 
 #contact-container .contact-title {
-    font-size : 40px;
+    font-size : 44px;
     font-weight:700;
     padding : 30px;
 }
@@ -227,8 +258,29 @@ header {
     justify-content: space-between;
     align-items: flex-end;
     padding : 25px;
-    font-size : 20px;
+    font-size : 18px;
     height: 100%;
 }
 
+/* SCROLL BAR */
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background: #CCFF00 
+}
+
+
 /* MEDIA QUERIES */
+@media screen and (max-width:769px) {
+    .left-head a img {
+        width:100px;
+    }
+    
+}
+@media screen and (max-width:481px) {
+    .left-head a img {
+        width:60px;
+    }
+    
+}

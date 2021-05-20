@@ -2009,6 +2009,30 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   components: {
@@ -44306,8 +44330,11 @@ var staticRenderFns = [
               _vm._v("  👋  "),
               _c("br"),
               _vm._v(
-                "\n            Web developer based in Lyon, Open to work right now\n          "
-              )
+                "\n            Web developer based in Lyon,\n            "
+              ),
+              _c("span", { staticClass: "underline" }, [
+                _vm._v("Open to work right now")
+              ])
             ]),
             _vm._v(" "),
             _c("br"),
@@ -44352,7 +44379,41 @@ var staticRenderFns = [
         ])
       ]),
       _vm._v(" "),
-      _c("div", { attrs: { id: "info-container" } }),
+      _c("div", { attrs: { id: "info-container" } }, [
+        _c("section", [
+          _c("h1", [_vm._v("Front-End")]),
+          _vm._v(" "),
+          _c("p", [_vm._v("Javascript • Html • CSS")])
+        ]),
+        _vm._v(" "),
+        _c("section", [
+          _c("h1", [_vm._v("Librairies - Framework")]),
+          _vm._v(" "),
+          _c("p", [
+            _vm._v(
+              "\n          ReactJS • VueJS • Gatsby • Bootstrap • Material Design • Vuetify\n        "
+            )
+          ])
+        ]),
+        _vm._v(" "),
+        _c("section", [
+          _c("h1", [_vm._v("Back-End")]),
+          _vm._v(" "),
+          _c("p", [_vm._v("NodeJS • PHP(Laravel) • Strapi")])
+        ]),
+        _vm._v(" "),
+        _c("section", [
+          _c("h1", [_vm._v("Database Management System")]),
+          _vm._v(" "),
+          _c("p", [_vm._v("MySQL • GraphQL langage")])
+        ]),
+        _vm._v(" "),
+        _c("section", [
+          _c("h1", [_vm._v("Styles")]),
+          _vm._v(" "),
+          _c("p", [_vm._v("Styled Components • CSS Modules • SASS")])
+        ])
+      ]),
       _vm._v(" "),
       _c("div", { attrs: { id: "demo-container" } }),
       _vm._v(" "),
@@ -44377,7 +44438,7 @@ var staticRenderFns = [
         _c("section", { staticClass: "contact-footer" }, [
           _c("div", [_vm._v("Trained by the Wild Code School")]),
           _vm._v(" "),
-          _c("div", [_vm._v("Site by Marine.")])
+          _c("div", [_vm._v("Site by M.")])
         ])
       ])
     ])
@@ -44496,7 +44557,9 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "left-head" }, [
-      _c("a", { attrs: { href: "#", title: "logo" } }, [_vm._v("M.")])
+      _c("a", { attrs: { href: "#", title: "logo" } }, [
+        _c("img", { attrs: { src: "images/logoM2.png", alt: "LogoM" } })
+      ])
     ])
   }
 ]

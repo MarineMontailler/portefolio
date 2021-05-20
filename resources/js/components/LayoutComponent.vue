@@ -8,7 +8,8 @@
           <article>
             <p>
               Hi, I'm <strong>Marine Montailler</strong> &nbsp;👋&nbsp; <br />
-              Web developer based in Lyon, Open to work right now
+              Web developer based in Lyon,
+              <span class="underline">Open to work right now</span>
             </p>
             <br />
             <p>Having fun with JAVASCRIPT and PHP</p>
@@ -32,7 +33,30 @@
           </article>
         </section>
       </div>
-      <div id="info-container"></div>
+      <div id="info-container">
+        <section>
+          <h1>Front-End</h1>
+          <p>Javascript • Html • CSS</p>
+        </section>
+        <section>
+          <h1>Librairies - Framework</h1>
+          <p>
+            ReactJS • VueJS • Gatsby • Bootstrap • Material Design • Vuetify
+          </p>
+        </section>
+        <section>
+          <h1>Back-End</h1>
+          <p>NodeJS • PHP(Laravel) • Strapi</p>
+        </section>
+        <section>
+          <h1>Database Management System</h1>
+          <p>MySQL • GraphQL langage</p>
+        </section>
+        <section>
+          <h1>Styles</h1>
+          <p>Styled Components • CSS Modules • SASS</p>
+        </section>
+      </div>
       <div id="demo-container"></div>
       <div id="contact-container">
         <section class="contact-title">Let's keep in touch.</section>
@@ -49,7 +73,7 @@
         </section>
         <section class="contact-footer">
           <div>Trained by the Wild Code School</div>
-          <div>Site by Marine.</div>
+          <div>Site by M.</div>
         </section>
       </div>
     </main>
