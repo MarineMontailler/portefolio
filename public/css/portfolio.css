@@ -27,6 +27,7 @@ a {
 }
 
 
+
   /* HEADER */ 
 header {
     position: fixed;
@@ -136,7 +137,7 @@ header {
  #menu
  {
    position: absolute;
-   width: 100vw;
+   width: 102vw;
    height: 120vh;
    text-align:right;
    margin-top: -100px;
@@ -151,13 +152,14 @@ header {
    transform-origin: 0% 0%;
    transform: translate(100%, 0);
    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+   
  }
  
  #menu li
  {
-   padding: 10px 0;
+   padding: 10px 10px;
    font-weight: bold;
-    font-size: 60px;
+   font-size: 60px;
  }
  #menuToggle input:checked ~ ul
  {
@@ -169,8 +171,9 @@ header {
 #about-container {
     min-height: 100vh;
     padding-top: 25%;
-    padding-left: 15%;
-    padding-right: 10%;
+    padding-left: 17%;
+    padding-right: 17%;
+    margin-bottom: 20px;
     background-color: #FFFFFF;
     color: #000000;
 }
@@ -179,9 +182,15 @@ header {
     flex-direction: column;
 }
 #about-container section .personal-link {
-    padding-left : 30px;
     margin-top: 20px;
     font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+#about-container section .personal-link a {
+    padding: 0 8px;
     
 }
 #about-container section a {
@@ -218,13 +227,13 @@ header {
 }
 
 #demo-container {
-    background-color: #FFFFFF;
+    /* background-color: #FFFFFF; */
     min-height: 80vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-left: 17%;
-    padding-right: 12%;
+    padding-left: 15%;
+    padding-right: 15%;
     padding-top: 30px;
 }
 .video-container {
@@ -237,15 +246,21 @@ header {
     border-bottom: solid 1px #8D99AE;
 
 }
+.video-container  h1 {
+    padding-bottom: 20px;
+}
 .video-container  p {
-    font-size: 18px;
+    font-size: 16px;
+    padding-left: 10px;
 }
 .video-container .video-text-content {
     width: 100%;
     margin: 20px;
 }
 .video-content {
-    position: relative;
+    position: relative;  
+    z-index: -1;
+  
 }
 .img-mobile-responsive{
     border-radius: 15px;
@@ -253,15 +268,17 @@ header {
     position: absolute;
     left: -10px;
     bottom : 0px;
+    z-index: 0;
 }
 
 
 
 #contact-container {
     background-color: #CCFF00;
-    height: 50vh;
+    min-height: 50vh;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     
 }
 
@@ -269,6 +286,9 @@ header {
     font-size : 44px;
     font-weight:700;
     padding : 30px;
+}
+#contact-container .contact-block {
+    padding-bottom: 80px;
 }
 #contact-container .contact-block-mail {
     width: 220px;
@@ -317,6 +337,10 @@ header {
     .video-container {
         flex-direction: column;
     }
+    #about-container section .personal-link a{
+        font-size:16px;
+    }
+    
     
 }
 @media screen and (max-width:481px) {
@@ -326,5 +350,13 @@ header {
     .video-container {
         flex-direction: column;
     }
+    .mail-text {
+        font-size: 12px;
+    }
+    #contact-container .contact-footer {
+        font-size : 12px;
+        
+    }
+    
     
 }

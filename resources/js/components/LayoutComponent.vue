@@ -25,11 +25,12 @@
               >github</a
             >
             •
-            <a href="mailto:marinemontailler@gmail.com"
-              >marinemontailler@gmail.com</a
-            >
-            •
             <a download href="images/CV-mai2021.pdf">CV</a>
+            •
+
+            <a href="mailto:marinemontailler@gmail.com"
+              ><span class="mail-text">marinemontailler@gmail.com</span></a
+            >
           </article>
         </section>
       </div>
@@ -54,7 +55,7 @@
         </section>
         <section>
           <h1>Styles</h1>
-          <p>Styled Components • CSS Modules • SASS</p>
+          <p>Styled Components • CSS Modules • SASS • Responsive Design</p>
         </section>
       </div>
       <div id="demo-container">
@@ -115,10 +116,62 @@
             />
           </div>
         </div>
+        <div class="video-container">
+          <div class="video-text-content">
+            <section>
+              <h1>Website About Cocktail's Recipe</h1>
+              <p>JAVASCRIPT • ReactJS</p>
+              <p>Wild Code School Project, SCRUM Method</p>
+            </section>
+          </div>
+          <div class="video-content">
+            <img
+              src="https://media.giphy.com/media/GA4ijtakvEOwHRhWvG/giphy.gif"
+              alt="site cocktail"
+            />
+            <img
+              src="images/mobile-cocktail.png"
+              alt="cocktail mobile"
+              class="img-mobile-responsive"
+            />
+          </div>
+        </div>
+        <div class="video-container">
+          <div class="video-text-content">
+            <section>
+              <h1>School Trombinoscope Website</h1>
+              <p>HTML • CSS</p>
+              <p>Wild Code School Project</p>
+            </section>
+          </div>
+          <div class="video-content">
+            <img
+              src="https://media.giphy.com/media/EGVvFtzGjN5XtxHWjo/giphy.gif"
+              alt="site trombinoscope"
+            />
+            <img
+              src="images/mobile-trombi.png"
+              alt="trombi mobile"
+              class="img-mobile-responsive"
+            />
+          </div>
+        </div>
+        <div class="video-container">
+          <div class="video-text-content">
+            <section>
+              <h1>This Website</h1>
+              <p>JAVASCRIPT • VueJS • PHP • Laravel</p>
+              <p>Personal portfolio</p>
+            </section>
+          </div>
+          <div class="video-content">
+            <!-- <img src="images/logoM2.png" alt="portfolio" /> -->
+          </div>
+        </div>
       </div>
       <div id="contact-container">
         <section class="contact-title">Let's keep in touch.</section>
-        <section>
+        <section class="contact-block">
           <div class="contact-block-mail">
             <a href="mailto:marinemontailler@gmail.com">
               <p>Contact me</p>
