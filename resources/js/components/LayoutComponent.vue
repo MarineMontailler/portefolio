@@ -46,7 +46,7 @@
         </section>
         <section>
           <h1>Back-End</h1>
-          <p>NodeJS • PHP(Laravel) • Strapi</p>
+          <p>NodeJS • PHP(Laravel) • API REST • Strapi</p>
         </section>
         <section>
           <h1>Database Management System</h1>
@@ -57,7 +57,65 @@
           <p>Styled Components • CSS Modules • SASS</p>
         </section>
       </div>
-      <div id="demo-container"></div>
+      <div id="demo-container">
+        <div class="video-container">
+          <div class="video-text-content">
+            <section>
+              <h1>Event International Theater Festival "Sens-Interdits"</h1>
+              <p>
+                JAVASCRIPT • ReactJS • Gatsby • HeadLess CMS Strapi • GraphQL •
+                SCRUM Method
+              </p>
+              <p>Gatsby plugins, Gatsby-Node, SEO, Hooks</p>
+            </section>
+          </div>
+          <div class="video-content">
+            <img
+              src="https://media.giphy.com/media/q6mxEbfCFHCAqKS0vU/giphy.gif"
+              alt="site festival"
+            />
+            <img
+              src="images/mobile-festival.png"
+              alt="site festival mobile"
+              class="img-mobile-responsive"
+            />
+          </div>
+        </div>
+        <div class="video-container">
+          <div class="video-text-content">
+            <section>
+              <h1>AERIAL GROUP Society - intranet</h1>
+              <p>
+                JAVASCRIPT • PHP • VueJS • Laravel • MySQL • Material Design
+              </p>
+              <p>
+                FullCalendar, Vue-Paginate, VueTooltip, Store, Vue-Filter,
+                Eloquent ORM, Migration Files
+              </p>
+            </section>
+          </div>
+          <div class="video-content"></div>
+        </div>
+        <div class="video-container">
+          <div class="video-text-content">
+            <section>
+              <h1>Event Wedding Website</h1>
+              <p>JAVASCRIPT • ReactJS • NodeJS</p>
+            </section>
+          </div>
+          <div class="video-content">
+            <img
+              src="https://media.giphy.com/media/dRriRGmS6u0diBNHHg/giphy.gif"
+              alt="site mariage"
+            />
+            <img
+              src="images/mobile-mariage.png"
+              alt="mariage mobile"
+              class="img-mobile-responsive"
+            />
+          </div>
+        </div>
+      </div>
       <div id="contact-container">
         <section class="contact-title">Let's keep in touch.</section>
         <section>
@@ -81,7 +139,7 @@
 </template>
 
 <script>
-import HeaderComponent from "./portefolio/HeaderComponent.vue";
+import HeaderComponent from "./portfolio/HeaderComponent.vue";
 
 export default {
   components: {
