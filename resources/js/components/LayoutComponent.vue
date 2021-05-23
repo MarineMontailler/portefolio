@@ -25,7 +25,7 @@
               >github</a
             >
             •
-            <a download href="images/CV-mai2021.pdf">CV</a>
+            <a download href="images/CV-marine-montailler.pdf">CV</a>
             •
 
             <a href="mailto:marinemontailler@gmail.com"
@@ -170,7 +170,7 @@
         </div>
       </div>
       <div id="contact-container">
-        <section class="contact-title">Let's keep in touch.</section>
+        <section class="contact-title">Let's get in touch.</section>
         <section class="contact-block">
           <div class="contact-block-mail">
             <a href="mailto:marinemontailler@gmail.com">
