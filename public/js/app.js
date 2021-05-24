@@ -44806,7 +44806,7 @@ var render = function() {
               attrs: { href: "#demo-container" },
               on: { click: _vm.checkToggle }
             },
-            [_c("li", [_vm._v("Demo")])]
+            [_c("li", [_vm._v("Works")])]
           ),
           _vm._v(" "),
           _c(
