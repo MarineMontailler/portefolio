@@ -13,7 +13,7 @@
         <ul id="menu">
           <a href="#" @click="checkToggle"><li>About</li></a>
           <a href="#info-container" @click="checkToggle"><li>Skills</li></a>
-          <a href="#demo-container" @click="checkToggle"><li>Demo</li></a>
+          <a href="#demo-container" @click="checkToggle"><li>Works</li></a>
           <a href="#contact-container" @click="checkToggle"><li>Contact</li></a>
         </ul>
       </nav>

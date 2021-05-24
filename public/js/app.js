@@ -44479,7 +44479,9 @@ var staticRenderFns = [
             _vm._v("\n          •\n          "),
             _c(
               "a",
-              { attrs: { download: "", href: "images/CV-mai2021.pdf" } },
+              {
+                attrs: { download: "", href: "images/CV-marine-montailler.pdf" }
+              },
               [_vm._v("CV")]
             ),
             _vm._v("\n          •\n\n          "),
@@ -44688,7 +44690,7 @@ var staticRenderFns = [
       _vm._v(" "),
       _c("div", { attrs: { id: "contact-container" } }, [
         _c("section", { staticClass: "contact-title" }, [
-          _vm._v("Let's keep in touch.")
+          _vm._v("Let's get in touch.")
         ]),
         _vm._v(" "),
         _c("section", { staticClass: "contact-block" }, [
@@ -44804,7 +44806,7 @@ var render = function() {
               attrs: { href: "#demo-container" },
               on: { click: _vm.checkToggle }
             },
-            [_c("li", [_vm._v("Demo")])]
+            [_c("li", [_vm._v("Works")])]
           ),
           _vm._v(" "),
           _c(
