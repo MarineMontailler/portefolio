@@ -44520,7 +44520,7 @@ var staticRenderFns = [
         ]),
         _vm._v(" "),
         _c("article", [
-          _c("h3", [_vm._v("Framework - Librairies")]),
+          _c("h3", [_vm._v("Frameworks - Librairies")]),
           _vm._v(" "),
           _c("p", [
             _vm._v(

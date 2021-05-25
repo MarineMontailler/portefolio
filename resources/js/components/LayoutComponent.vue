@@ -41,7 +41,7 @@
           <p>JAVASCRIPT • PHP • HTML • CSS</p>
         </article>
         <article>
-          <h3>Framework - Librairies</h3>
+          <h3>Frameworks - Librairies</h3>
           <p>
             VueJS • ReactJS • Laravel • nodeJS • Express • Strapi • Gatsby •
             GraphQL • Bootstrap • Material Design • Vuetify
