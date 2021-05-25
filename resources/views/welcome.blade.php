@@ -3,18 +3,16 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
         <title>Web Developer <M./>.</title>
-        <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-        <link href="{{ asset('css/general.css') }}" rel="stylesheet">
-        <link href="{{ asset('css/portfolio.css') }}" rel="stylesheet">
-        
+        <link href="/css/app.css" rel="stylesheet">
+        <link href="/css/general.css" rel="stylesheet">
+        <link href="/css/portfolio.css" rel="stylesheet">
     </head>
     <body>
         <section id="app">
             <!-- Got to VueJS componants : -->
             <layout-component></layout-component>
         </section>
-        <script src="{{ asset('js/app.js') }}" ></script>
+        <script src="/js/app.js" ></script>
     </body>
 </html>
