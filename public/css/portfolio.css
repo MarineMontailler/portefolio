@@ -26,6 +26,17 @@ a {
     text-decoration: underline;
 }
 
+h2 {
+    font-weight: 700;
+    font-size: 36px;
+    padding-top: 20px;
+    color:#CCFF00;
+}
+h3 {
+    padding-top: 20px;
+    color:#FF6347;
+}
+
 
 
   /* HEADER */ 
@@ -181,7 +192,7 @@ header {
     display: flex;
     flex-direction: column;
 }
-#about-container section .personal-link {
+.personal-link {
     margin-top: 20px;
     font-size: 20px;
     display: flex;
@@ -189,7 +200,7 @@ header {
     align-items: center;
     
 }
-#about-container section .personal-link a {
+.personal-link a {
     padding: 0 8px;
     
 }
@@ -207,17 +218,13 @@ header {
     padding : 30px;
 
 }
-#info-container section {
+#info-container {
     margin-bottom: 20px;
     padding-left: 17%;
     padding-right: 12%;
 
 }
-#info-container section h1 {
-    font-weight: 700;
-    padding-top: 20px;
-}
-#info-container section p {
+#info-container article p {
     font-size: 22px;
     padding-top: 20px;
     padding-bottom: 40px;
@@ -227,14 +234,18 @@ header {
 }
 
 #demo-container {
-    /* background-color: #FFFFFF; */
     min-height: 80vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-left: 17%;
+    padding-right: 12%;
     padding-top: 30px;
+}
+#demo-container h2 {
+    display: inline-block;
+    width: 100%;
+    color: #2B2D42;
 }
 .video-container {
     margin: 10px;
@@ -246,7 +257,7 @@ header {
     border-bottom: solid 1px #8D99AE;
 
 }
-.video-container  h1 {
+.video-container  h3 {
     padding-bottom: 20px;
 }
 .video-container  p {
@@ -255,7 +266,6 @@ header {
 }
 .video-container .video-text-content {
     width: 100%;
-    margin: 20px;
 }
 .video-content {
     position: relative;  
@@ -271,14 +281,13 @@ header {
     z-index: 0;
 }
 
-
-
 #contact-container {
     background-color: #CCFF00;
     min-height: 50vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    color:#2B2D42;
     
 }
 
@@ -318,6 +327,15 @@ header {
     padding : 25px;
     font-size : 18px;
     height: 100%;
+}
+#contact-container .personal-link {
+    text-align:center;
+    width: 100%;
+    display: inline-block;
+}
+#contact-container .personal-link a {
+    color:#2B2D42;
+    font-size: 20px;
 }
 
 /* SCROLL BAR */

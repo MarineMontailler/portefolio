@@ -35,34 +35,34 @@
         </section>
       </div>
       <div id="info-container">
-        <section>
-          <h1>Front-End</h1>
-          <p>Javascript • Html • CSS</p>
-        </section>
-        <section>
-          <h1>Librairies - Framework</h1>
+        <h2>SKILLS</h2>
+        <article>
+          <h3>Languages</h3>
+          <p>JAVASCRIPT • PHP • HTML • CSS</p>
+        </article>
+        <article>
+          <h3>Framework - Librairies</h3>
           <p>
-            ReactJS • VueJS • Gatsby • Bootstrap • Material Design • Vuetify
+            VueJS • ReactJS • Laravel • nodeJS • Express • Strapi • Gatsby •
+            GraphQL • Bootstrap • Material Design • Vuetify
           </p>
-        </section>
-        <section>
-          <h1>Back-End</h1>
-          <p>NodeJS • PHP(Laravel) • API REST • Strapi</p>
-        </section>
-        <section>
-          <h1>Database Management System</h1>
-          <p>MySQL • GraphQL langage</p>
-        </section>
-        <section>
-          <h1>Styles</h1>
-          <p>Styled Components • CSS Modules • SASS • Responsive Design</p>
-        </section>
+        </article>
+        <article>
+          <h3>Database Management System</h3>
+          <p>MySQL</p>
+        </article>
+        <article>
+          <h3>Styles</h3>
+          <p>Styled Components • SASS • Responsive Design</p>
+        </article>
       </div>
       <div id="demo-container">
+        <h2>WORKS</h2>
+
         <div class="video-container">
           <div class="video-text-content">
             <section>
-              <h1>Event International Theater Festival "Sens-Interdits"</h1>
+              <h3>Event International Theater Festival "Sens-Interdits"</h3>
               <p>
                 JAVASCRIPT • ReactJS • Gatsby • HeadLess CMS Strapi • GraphQL •
                 SCRUM Method
@@ -85,7 +85,7 @@
         <div class="video-container">
           <div class="video-text-content">
             <section>
-              <h1>AERIAL GROUP Society - intranet</h1>
+              <h3>AERIAL GROUP Society - intranet</h3>
               <p>
                 JAVASCRIPT • PHP • VueJS • Laravel • MySQL • Material Design
               </p>
@@ -100,7 +100,7 @@
         <div class="video-container">
           <div class="video-text-content">
             <section>
-              <h1>Event Wedding Website</h1>
+              <h3>Event Wedding Website</h3>
               <p>JAVASCRIPT • ReactJS • NodeJS</p>
             </section>
           </div>
@@ -119,7 +119,7 @@
         <div class="video-container">
           <div class="video-text-content">
             <section>
-              <h1>Website About Cocktail's Recipe</h1>
+              <h3>Website About Cocktail's Recipe</h3>
               <p>JAVASCRIPT • ReactJS</p>
               <p>Wild Code School Project, SCRUM Method</p>
             </section>
@@ -139,7 +139,7 @@
         <div class="video-container">
           <div class="video-text-content">
             <section>
-              <h1>School Trombinoscope Website</h1>
+              <h3>School Trombinoscope Website</h3>
               <p>HTML • CSS</p>
               <p>Wild Code School Project</p>
             </section>
@@ -159,7 +159,7 @@
         <div class="video-container">
           <div class="video-text-content">
             <section>
-              <h1>This Website</h1>
+              <h3>This Website</h3>
               <p>JAVASCRIPT • VueJS • PHP • Laravel</p>
               <p>Personal portfolio</p>
             </section>
@@ -183,8 +183,24 @@
           </div>
         </section>
         <section class="contact-footer">
-          <div>Trained by the Wild Code School</div>
-          <div>Site by M.</div>
+          <article class="personal-link">
+            <a
+              href="https://www.linkedin.com/in/marine-montailler-193298185/"
+              target="_blank"
+              >linkedin</a
+            >
+            •
+            <a href="https://github.com/MarineMontailler" target="_blank"
+              >github</a
+            >
+            •
+            <a download href="images/CV-marine-montailler.pdf">CV</a>
+            •
+
+            <a href="mailto:marinemontailler@gmail.com"
+              ><span class="mail-text">marinemontailler@gmail.com</span></a
+            >
+          </article>
         </section>
       </div>
     </main>
