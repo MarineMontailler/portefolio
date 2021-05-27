@@ -233,6 +233,10 @@ header {
 
 }
 
+#info-container article:last-child p {
+    border: 0
+    }
+
 #demo-container {
     min-height: 80vh;
     display: flex;
@@ -257,6 +261,9 @@ header {
     border-bottom: solid 1px #8D99AE;
 
 }
+#demo-container:last-child  {
+    border: 0
+    }
 .video-container  h3 {
     padding-bottom: 20px;
 }

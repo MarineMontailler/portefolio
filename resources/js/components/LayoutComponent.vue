@@ -175,10 +175,7 @@
           <div class="contact-block-mail">
             <a href="mailto:marinemontailler@gmail.com">
               <p>Contact me</p>
-              <img
-                src="images/Mail-Icon.svg"
-                style="filter: reverse"
-                width="45"
+              <img src="images/Mail-Icon.svg" alt="mail-icon" width="45"
             /></a>
           </div>
         </section>

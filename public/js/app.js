@@ -2157,9 +2157,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   components: {
@@ -2189,6 +2186,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
+//
+//
 //
 //
 //
@@ -44711,8 +44710,11 @@ var staticRenderFns = [
               _c("p", [_vm._v("Contact me")]),
               _vm._v(" "),
               _c("img", {
-                staticStyle: { filter: "reverse" },
-                attrs: { src: "images/Mail-Icon.svg", width: "45" }
+                attrs: {
+                  src: "images/Mail-Icon.svg",
+                  alt: "mail-icon",
+                  width: "45"
+                }
               })
             ])
           ])
@@ -44788,7 +44790,7 @@ var render = function() {
     _c("header", [
       _vm._m(0),
       _vm._v(" "),
-      _c("nav", { attrs: { role: "navigation", id: "menuToggle" } }, [
+      _c("nav", { attrs: { id: "menuToggle" } }, [
         _c("input", {
           directives: [
             {
@@ -44834,36 +44836,44 @@ var render = function() {
         _c("span"),
         _vm._v(" "),
         _c("ul", { attrs: { id: "menu" } }, [
-          _c("a", { attrs: { href: "#" }, on: { click: _vm.checkToggle } }, [
-            _c("li", [_vm._v("About")])
+          _c("li", [
+            _c("a", { attrs: { href: "#" }, on: { click: _vm.checkToggle } }, [
+              _vm._v("About")
+            ])
           ]),
           _vm._v(" "),
-          _c(
-            "a",
-            {
-              attrs: { href: "#info-container" },
-              on: { click: _vm.checkToggle }
-            },
-            [_c("li", [_vm._v("Skills")])]
-          ),
+          _c("li", [
+            _c(
+              "a",
+              {
+                attrs: { href: "#info-container" },
+                on: { click: _vm.checkToggle }
+              },
+              [_vm._v("Skills")]
+            )
+          ]),
           _vm._v(" "),
-          _c(
-            "a",
-            {
-              attrs: { href: "#demo-container" },
-              on: { click: _vm.checkToggle }
-            },
-            [_c("li", [_vm._v("Works")])]
-          ),
+          _c("li", [
+            _c(
+              "a",
+              {
+                attrs: { href: "#demo-container" },
+                on: { click: _vm.checkToggle }
+              },
+              [_vm._v("Works")]
+            )
+          ]),
           _vm._v(" "),
-          _c(
-            "a",
-            {
-              attrs: { href: "#contact-container" },
-              on: { click: _vm.checkToggle }
-            },
-            [_c("li", [_vm._v("Contact")])]
-          )
+          _c("li", [
+            _c(
+              "a",
+              {
+                attrs: { href: "#contact-container" },
+                on: { click: _vm.checkToggle }
+              },
+              [_vm._v("Contact")]
+            )
+          ])
         ])
       ])
     ])
@@ -44875,7 +44885,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "left-head" }, [
-      _c("a", { attrs: { href: "#", title: "logo" } }, [
+      _c("a", { attrs: { href: "/", title: "logo" } }, [
         _c("img", { attrs: { src: "images/logoM2.png", alt: "LogoM" } })
       ])
     ])
