@@ -2157,6 +2157,30 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   components: {
@@ -44439,77 +44463,113 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", [_c("header-component"), _vm._v(" "), _vm._m(0)], 1)
+  return _c("div", { attrs: { id: "layout" } }, [
+    _vm._m(0),
+    _vm._v(" "),
+    _c(
+      "div",
+      { attrs: { id: "main-layout" } },
+      [_c("header-component"), _vm._v(" "), _vm._m(1)],
+      1
+    )
+  ])
 }
 var staticRenderFns = [
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "defileParent" }, [
+      _c("img", {
+        staticClass: "defile line-one",
+        attrs: { src: "images/line-thin.jpg", alt: "flash" }
+      }),
+      _vm._v(" "),
+      _c("img", {
+        staticClass: "defile2 line-four",
+        attrs: { src: "images/line-thin2.jpg", alt: "flash" }
+      }),
+      _vm._v(" "),
+      _c("img", {
+        staticClass: "defile line-two",
+        attrs: { src: "images/line-thin.jpg", alt: "flash" }
+      }),
+      _vm._v(" "),
+      _c("img", {
+        staticClass: "defile2 line-five",
+        attrs: { src: "images/line-thin2.jpg", alt: "flash" }
+      }),
+      _vm._v(" "),
+      _c("img", {
+        staticClass: "defile line-three",
+        attrs: { src: "images/line-thin.jpg", alt: "flash" }
+      })
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
     return _c("main", { staticClass: "portefolio-container" }, [
-      _c("div", { attrs: { id: "about-container" } }, [
-        _c("section", [
-          _c("article", [
-            _c("p", [
-              _vm._v("\n            Hi, I'm "),
-              _c("strong", [_vm._v("Marine Montailler")]),
-              _vm._v("  👋  "),
-              _c("br"),
-              _vm._v(
-                "\n            Web developer based in Lyon,\n            "
-              ),
-              _c("span", { staticClass: "underline" }, [
-                _vm._v("Open to work right now")
-              ])
-            ]),
-            _vm._v(" "),
+      _c("section", { attrs: { id: "about-container" } }, [
+        _c("div", [
+          _c("p", [
+            _vm._v("\n            Hi, I'm "),
+            _c("strong", [_vm._v("Marine Montailler")]),
+            _vm._v("  👋  "),
             _c("br"),
-            _vm._v(" "),
-            _c("p", [_vm._v("Having fun with JAVASCRIPT and PHP")])
+            _vm._v("\n            Web developer based in Lyon,\n            "),
+            _c("span", { staticClass: "underline" }, [
+              _vm._v("Open to work right now")
+            ])
           ]),
           _vm._v(" "),
-          _c("article", { staticClass: "personal-link" }, [
-            _c(
-              "a",
-              {
-                attrs: {
-                  href:
-                    "https://www.linkedin.com/in/marine-montailler-193298185/",
-                  target: "_blank"
-                }
-              },
-              [_vm._v("linkedin")]
-            ),
-            _vm._v("\n          •\n          "),
-            _c(
-              "a",
-              {
-                attrs: {
-                  href: "https://github.com/MarineMontailler",
-                  target: "_blank"
-                }
-              },
-              [_vm._v("github")]
-            ),
-            _vm._v("\n          •\n          "),
-            _c(
-              "a",
-              {
-                attrs: { download: "", href: "images/CV-marine-montailler.pdf" }
-              },
-              [_vm._v("CV")]
-            ),
-            _vm._v("\n          •\n\n          "),
-            _c("a", { attrs: { href: "mailto:marinemontailler@gmail.com" } }, [
-              _c("span", { staticClass: "mail-text" }, [
-                _vm._v("marinemontailler@gmail.com")
-              ])
+          _c("br"),
+          _vm._v(" "),
+          _c("p", [_vm._v("Having fun with JAVASCRIPT and PHP")])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "personal-link" }, [
+          _c(
+            "a",
+            {
+              attrs: {
+                href:
+                  "https://www.linkedin.com/in/marine-montailler-193298185/",
+                target: "_blank"
+              }
+            },
+            [_vm._v("linkedin")]
+          ),
+          _vm._v("\n          •\n          "),
+          _c(
+            "a",
+            {
+              attrs: {
+                href: "https://github.com/MarineMontailler",
+                target: "_blank"
+              }
+            },
+            [_vm._v("github")]
+          ),
+          _vm._v("\n          •\n          "),
+          _c(
+            "a",
+            {
+              attrs: { download: "", href: "images/CV-marine-montailler.pdf" }
+            },
+            [_vm._v("CV")]
+          ),
+          _vm._v("\n          •\n\n          "),
+          _c("a", { attrs: { href: "mailto:marinemontailler@gmail.com" } }, [
+            _c("span", { staticClass: "mail-text" }, [
+              _vm._v("marinemontailler@gmail.com")
             ])
           ])
         ])
       ]),
       _vm._v(" "),
-      _c("div", { attrs: { id: "info-container" } }, [
+      _c("section", { attrs: { id: "skills-container" } }, [
         _c("h2", [_vm._v("SKILLS")]),
         _vm._v(" "),
         _c("article", [
@@ -44523,7 +44583,7 @@ var staticRenderFns = [
           _vm._v(" "),
           _c("p", [
             _vm._v(
-              "\n          VueJS • ReactJS • Laravel • nodeJS • Express • Strapi • Gatsby •\n          GraphQL • Bootstrap • Material Design • Vuetify\n        "
+              "\n            VueJS • ReactJS • Laravel • nodeJS • Express • Strapi • Gatsby •\n            GraphQL • Bootstrap • Material Design • Vuetify\n          "
             )
           ])
         ]),
@@ -44541,23 +44601,27 @@ var staticRenderFns = [
         ])
       ]),
       _vm._v(" "),
-      _c("div", { attrs: { id: "demo-container" } }, [
+      _c("section", { attrs: { id: "demo-container" } }, [
         _c("h2", [_vm._v("WORKS")]),
         _vm._v(" "),
-        _c("div", { staticClass: "video-container" }, [
+        _c("article", { staticClass: "video-container" }, [
           _c("div", { staticClass: "video-text-content" }, [
-            _c("section", [
+            _c("div", [
               _c("h3", [
                 _vm._v('Event International Theater Festival "Sens-Interdits"')
               ]),
               _vm._v(" "),
               _c("p", [
                 _vm._v(
-                  "\n              JAVASCRIPT • ReactJS • Gatsby • HeadLess CMS Strapi • GraphQL •\n              SCRUM Method\n            "
+                  "\n                JAVASCRIPT • ReactJS • Gatsby • HeadLess CMS Strapi • GraphQL\n                • SCRUM Method\n              "
                 )
               ]),
               _vm._v(" "),
-              _c("p", [_vm._v("Gatsby plugins, Gatsby-Node, SEO, Hooks")])
+              _c("p", [
+                _vm._v(
+                  "\n                Gatsby plugins, Gatsby-Node, SEO, Hooks (deployment in\n                progress)\n              "
+                )
+              ])
             ])
           ]),
           _vm._v(" "),
@@ -44580,20 +44644,20 @@ var staticRenderFns = [
           ])
         ]),
         _vm._v(" "),
-        _c("div", { staticClass: "video-container" }, [
+        _c("article", { staticClass: "video-container" }, [
           _c("div", { staticClass: "video-text-content" }, [
-            _c("section", [
+            _c("div", [
               _c("h3", [_vm._v("AERIAL GROUP Society - intranet")]),
               _vm._v(" "),
               _c("p", [
                 _vm._v(
-                  "\n              JAVASCRIPT • PHP • VueJS • Laravel • MySQL • Material Design\n            "
+                  "\n                JAVASCRIPT • PHP • VueJS • Laravel • MySQL • Material Design\n              "
                 )
               ]),
               _vm._v(" "),
               _c("p", [
                 _vm._v(
-                  "\n              FullCalendar, Vue-Paginate, VueTooltip, Store, Vue-Filter,\n              Eloquent ORM, Migration Files\n            "
+                  "\n                FullCalendar, Vue-Paginate, VueTooltip, Store, Vue-Filter,\n                Eloquent ORM, Migration Files (Private project)\n              "
                 )
               ])
             ])
@@ -44602,10 +44666,20 @@ var staticRenderFns = [
           _c("div", { staticClass: "video-content" })
         ]),
         _vm._v(" "),
-        _c("div", { staticClass: "video-container" }, [
+        _c("article", { staticClass: "video-container" }, [
           _c("div", { staticClass: "video-text-content" }, [
-            _c("section", [
-              _c("h3", [_vm._v("Event Wedding Website")]),
+            _c("div", [
+              _c(
+                "a",
+                {
+                  attrs: {
+                    href: "https://laura-damien.netlify.app/",
+                    title: "wedding site",
+                    target: "_blanck"
+                  }
+                },
+                [_c("h3", [_vm._v("Event Wedding Website")])]
+              ),
               _vm._v(" "),
               _c("p", [_vm._v("JAVASCRIPT • ReactJS • NodeJS")])
             ])
@@ -44627,10 +44701,20 @@ var staticRenderFns = [
           ])
         ]),
         _vm._v(" "),
-        _c("div", { staticClass: "video-container" }, [
+        _c("article", { staticClass: "video-container" }, [
           _c("div", { staticClass: "video-text-content" }, [
-            _c("section", [
-              _c("h3", [_vm._v("Website About Cocktail's Recipe")]),
+            _c("div", [
+              _c(
+                "a",
+                {
+                  attrs: {
+                    href: "https://shakeit.netlify.app/",
+                    title: "cocktail site",
+                    target: "_blanck"
+                  }
+                },
+                [_c("h3", [_vm._v("Website About Cocktail's Recipe")])]
+              ),
               _vm._v(" "),
               _c("p", [_vm._v("JAVASCRIPT • ReactJS")]),
               _vm._v(" "),
@@ -44657,10 +44741,21 @@ var staticRenderFns = [
           ])
         ]),
         _vm._v(" "),
-        _c("div", { staticClass: "video-container" }, [
+        _c("article", { staticClass: "video-container" }, [
           _c("div", { staticClass: "video-text-content" }, [
-            _c("section", [
-              _c("h3", [_vm._v("School Trombinoscope Website")]),
+            _c("div", [
+              _c(
+                "a",
+                {
+                  attrs: {
+                    href:
+                      "https://wildcodeschool.github.io/Lyon-js-202005-project-Trombino/",
+                    title: "trombinoscope site",
+                    target: "_blanck"
+                  }
+                },
+                [_c("h3", [_vm._v("School Trombinoscope Website")])]
+              ),
               _vm._v(" "),
               _c("p", [_vm._v("HTML • CSS")]),
               _vm._v(" "),
@@ -44684,9 +44779,9 @@ var staticRenderFns = [
           ])
         ]),
         _vm._v(" "),
-        _c("div", { staticClass: "video-container" }, [
+        _c("article", { staticClass: "video-container" }, [
           _c("div", { staticClass: "video-text-content" }, [
-            _c("section", [
+            _c("div", [
               _c("h3", [_vm._v("This Website")]),
               _vm._v(" "),
               _c("p", [_vm._v("JAVASCRIPT • VueJS • PHP • Laravel")]),
@@ -44699,12 +44794,12 @@ var staticRenderFns = [
         ])
       ]),
       _vm._v(" "),
-      _c("div", { attrs: { id: "contact-container" } }, [
-        _c("section", { staticClass: "contact-title" }, [
+      _c("section", { attrs: { id: "contact-container" } }, [
+        _c("article", { staticClass: "contact-title" }, [
           _vm._v("Let's get in touch.")
         ]),
         _vm._v(" "),
-        _c("section", { staticClass: "contact-block" }, [
+        _c("article", { staticClass: "contact-block" }, [
           _c("div", { staticClass: "contact-block-mail" }, [
             _c("a", { attrs: { href: "mailto:marinemontailler@gmail.com" } }, [
               _c("p", [_vm._v("Contact me")]),
@@ -44720,8 +44815,8 @@ var staticRenderFns = [
           ])
         ]),
         _vm._v(" "),
-        _c("section", { staticClass: "contact-footer" }, [
-          _c("article", { staticClass: "personal-link" }, [
+        _c("article", { staticClass: "contact-footer" }, [
+          _c("div", { staticClass: "personal-link" }, [
             _c(
               "a",
               {
@@ -44733,7 +44828,7 @@ var staticRenderFns = [
               },
               [_vm._v("linkedin")]
             ),
-            _vm._v("\n          •\n          "),
+            _vm._v("\n            •\n            "),
             _c(
               "a",
               {
@@ -44744,7 +44839,7 @@ var staticRenderFns = [
               },
               [_vm._v("github")]
             ),
-            _vm._v("\n          •\n          "),
+            _vm._v("\n            •\n            "),
             _c(
               "a",
               {
@@ -44752,7 +44847,7 @@ var staticRenderFns = [
               },
               [_vm._v("CV")]
             ),
-            _vm._v("\n          •\n\n          "),
+            _vm._v("\n            •\n\n            "),
             _c("a", { attrs: { href: "mailto:marinemontailler@gmail.com" } }, [
               _c("span", { staticClass: "mail-text" }, [
                 _vm._v("marinemontailler@gmail.com")
