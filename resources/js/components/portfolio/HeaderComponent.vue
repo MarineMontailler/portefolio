@@ -2,7 +2,9 @@
   <div>
     <header>
       <div class="left-head">
-        <a href="/" title="logo"><img src="images/logoM2.png" alt="LogoM" /></a>
+        <a href="/" title="logo"
+          ><img src="images/logo.png" alt="LogoM" class="logoM"
+        /></a>
       </div>
 
       <nav id="menuToggle">

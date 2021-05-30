@@ -2235,6 +2235,8 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   components: {},
   data: function data() {
@@ -44981,7 +44983,10 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "left-head" }, [
       _c("a", { attrs: { href: "/", title: "logo" } }, [
-        _c("img", { attrs: { src: "images/logoM2.png", alt: "LogoM" } })
+        _c("img", {
+          staticClass: "logoM",
+          attrs: { src: "images/logo.png", alt: "LogoM" }
+        })
       ])
     ])
   }
