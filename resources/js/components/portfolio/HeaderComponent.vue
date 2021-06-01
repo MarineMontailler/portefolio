@@ -14,7 +14,7 @@
         <span></span>
         <ul id="menu">
           <li><a href="#" @click="checkToggle">About</a></li>
-          <li><a href="#info-container" @click="checkToggle">Skills</a></li>
+          <li><a href="#skills-container" @click="checkToggle">Skills</a></li>
           <li><a href="#demo-container" @click="checkToggle">Works</a></li>
           <li>
             <a href="#contact-container" @click="checkToggle">Contact</a>
