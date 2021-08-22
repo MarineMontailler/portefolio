@@ -44466,48 +44466,15 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("div", { attrs: { id: "layout" } }, [
-    _vm._m(0),
-    _vm._v(" "),
     _c(
       "div",
       { attrs: { id: "main-layout" } },
-      [_c("header-component"), _vm._v(" "), _vm._m(1)],
+      [_c("header-component"), _vm._v(" "), _vm._m(0)],
       1
     )
   ])
 }
 var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "defileParent" }, [
-      _c("img", {
-        staticClass: "defile line-one",
-        attrs: { src: "images/line-thin.jpg", alt: "flash" }
-      }),
-      _vm._v(" "),
-      _c("img", {
-        staticClass: "defile2 line-four",
-        attrs: { src: "images/line-thin2.jpg", alt: "flash" }
-      }),
-      _vm._v(" "),
-      _c("img", {
-        staticClass: "defile line-two",
-        attrs: { src: "images/line-thin.jpg", alt: "flash" }
-      }),
-      _vm._v(" "),
-      _c("img", {
-        staticClass: "defile2 line-five",
-        attrs: { src: "images/line-thin2.jpg", alt: "flash" }
-      }),
-      _vm._v(" "),
-      _c("img", {
-        staticClass: "defile line-three",
-        attrs: { src: "images/line-thin.jpg", alt: "flash" }
-      })
-    ])
-  },
   function() {
     var _vm = this
     var _h = _vm.$createElement
@@ -44943,7 +44910,7 @@ var render = function() {
             _c(
               "a",
               {
-                attrs: { href: "#info-container" },
+                attrs: { href: "#skills-container" },
                 on: { click: _vm.checkToggle }
               },
               [_vm._v("Skills")]

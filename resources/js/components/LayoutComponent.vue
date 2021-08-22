@@ -1,12 +1,12 @@
 <template>
   <div id="layout">
-    <div class="defileParent">
+    <!-- <div class="defileParent">
       <img src="images/line-thin.jpg" alt="flash" class="defile line-one" />
       <img src="images/line-thin2.jpg" alt="flash" class="defile2 line-four" />
       <img src="images/line-thin.jpg" alt="flash" class="defile line-two" />
       <img src="images/line-thin2.jpg" alt="flash" class="defile2 line-five" />
       <img src="images/line-thin.jpg" alt="flash" class="defile line-three" />
-    </div>
+    </div> -->
     <div id="main-layout">
       <header-component></header-component>
       <main class="portefolio-container">

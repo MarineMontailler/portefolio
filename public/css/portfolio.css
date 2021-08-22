@@ -352,7 +352,7 @@ header {
 
 
 /* DEFILE */
-.defileParent {
+/* .defileParent {
 	display: block;
     position: relative;
     position: absolute;
@@ -441,7 +441,7 @@ header {
  @keyframes marqueelike2 {
 	0%, 100% {margin-left:20%;}
 	99.99% {margin-left:100%;}
- }
+ } */
 
  
 
