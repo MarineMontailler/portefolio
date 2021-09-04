@@ -2181,6 +2181,21 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   components: {
@@ -44487,10 +44502,7 @@ var staticRenderFns = [
             _c("strong", [_vm._v("Marine Montailler")]),
             _vm._v("  👋  "),
             _c("br"),
-            _vm._v("\n            Web developer based in Lyon,\n            "),
-            _c("span", { staticClass: "underline" }, [
-              _vm._v("Open to work right now")
-            ])
+            _vm._v("\n            Web developer based in Lyon\n            ")
           ]),
           _vm._v(" "),
           _c("br"),
@@ -44544,7 +44556,7 @@ var staticRenderFns = [
         _c("article", [
           _c("h3", [_vm._v("Languages")]),
           _vm._v(" "),
-          _c("p", [_vm._v("JAVASCRIPT • PHP • HTML • CSS")])
+          _c("p", [_vm._v("JAVASCRIPT • PHP • HTML • CSS • SQL • NoSQL")])
         ]),
         _vm._v(" "),
         _c("article", [
@@ -44552,7 +44564,7 @@ var staticRenderFns = [
           _vm._v(" "),
           _c("p", [
             _vm._v(
-              "\n            VueJS • ReactJS • Laravel • nodeJS • Express • Strapi • Gatsby •\n            GraphQL • Bootstrap • Material Design • Vuetify\n          "
+              "\n            VueJS • ReactJS • NodeJS • Laravel • Express • Strapi • Gatsby\n            • Mongoose • GraphQL • Bootstrap • Material Design • Vuetify • VueX\n          "
             )
           ])
         ]),
@@ -44560,18 +44572,44 @@ var staticRenderFns = [
         _c("article", [
           _c("h3", [_vm._v("Database Management System")]),
           _vm._v(" "),
-          _c("p", [_vm._v("MySQL")])
+          _c("p", [_vm._v("MySQL")]),
+          _vm._v(" "),
+          _c("p", [_vm._v("MongoDB")])
         ]),
         _vm._v(" "),
         _c("article", [
           _c("h3", [_vm._v("Styles")]),
           _vm._v(" "),
-          _c("p", [_vm._v("Styled Components • SASS • Responsive Design")])
+          _c("p", [
+            _vm._v("Styled Components • SASS• BootstrapVue • Responsive Design")
+          ])
         ])
       ]),
       _vm._v(" "),
       _c("section", { attrs: { id: "demo-container" } }, [
         _c("h2", [_vm._v("WORKS")]),
+        _vm._v(" "),
+        _c("article", { staticClass: "video-container" }, [
+          _c("div", { staticClass: "video-text-content" }, [
+            _c("div", [
+              _c("h3", [_vm._v("Cosyma - legal monitoring software")]),
+              _vm._v(" "),
+              _c("p", [
+                _vm._v(
+                  "\n                JAVASCRIPT • VueJS • NodeJS • Express • NoSQL • MongoDB\n              "
+                )
+              ]),
+              _vm._v(" "),
+              _c("p", [
+                _vm._v(
+                  "\n                Made from scratch - Dashboard, VueX, Mongoose, JsonWebToken, BootstrapVue\n              "
+                )
+              ])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "video-content" })
+        ]),
         _vm._v(" "),
         _c("article", { staticClass: "video-container" }, [
           _c("div", { staticClass: "video-text-content" }, [

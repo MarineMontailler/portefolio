@@ -14,8 +14,8 @@
           <div>
             <p>
               Hi, I'm <strong>Marine Montailler</strong> &nbsp;👋&nbsp; <br />
-              Web developer based in Lyon,
-              <span class="underline">Open to work right now</span>
+              Web developer based in Lyon
+              <!-- <span class="underline">Open to work right now</span> -->
             </p>
             <br />
             <p>Having fun with JAVASCRIPT and PHP</p>
@@ -43,26 +43,40 @@
           <h2>SKILLS</h2>
           <article>
             <h3>Languages</h3>
-            <p>JAVASCRIPT • PHP • HTML • CSS</p>
+            <p>JAVASCRIPT • PHP • HTML • CSS • SQL • NoSQL</p>
           </article>
           <article>
             <h3>Frameworks - Librairies</h3>
             <p>
-              VueJS • ReactJS • Laravel • nodeJS • Express • Strapi • Gatsby •
-              GraphQL • Bootstrap • Material Design • Vuetify
+              VueJS • ReactJS • NodeJS • Laravel • Express • Strapi • Gatsby
+              • Mongoose • GraphQL • Bootstrap • Material Design • Vuetify • VueX
             </p>
           </article>
           <article>
             <h3>Database Management System</h3>
-            <p>MySQL</p>
+            <p>MySQL • MongoDB</p>
           </article>
           <article>
             <h3>Styles</h3>
-            <p>Styled Components • SASS • Responsive Design</p>
+            <p>Styled Components • SASS• BootstrapVue • Responsive Design</p>
           </article>
         </section>
         <section id="demo-container">
           <h2>WORKS</h2>
+          <article class="video-container">
+            <div class="video-text-content">
+              <div>
+                <h3>COSYMA Society - legal monitoring software</h3>
+                <p>
+                  JAVASCRIPT • VueJS • NodeJS • Express • NoSQL • MongoDB
+                </p>
+                <p>
+                  Made from scratch - Dashboard, VueX, Mongoose, JsonWebToken, BootstrapVue
+                </p>
+              </div>
+            </div>
+            <div class="video-content"></div>
+          </article>
           <article class="video-container">
             <div class="video-text-content">
               <div>
