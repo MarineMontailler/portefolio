@@ -25,7 +25,7 @@
               >github</a
             >
             •
-            <a download href="images/CV-marine-montailler.pdf">CV</a>
+            <a download href="images/CV-marinemontailler.pdf">CV</a>
             •
 
             <a href="mailto:marinemontailler@gmail.com"
